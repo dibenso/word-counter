@@ -4,6 +4,7 @@ import { withRedux } from '../lib/redux'
 import TextInput from '../components/textInput'
 import Words from '../components/words'
 import Definition from '../components/definition'
+import WordChart from '../components/wordChart'
 
 const Home = () => (
   <div>
@@ -27,6 +28,11 @@ const Home = () => (
           </div>
           <div className="col-sm">
             <Words />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm">
+            <WordChart />
           </div>
         </div>
         <Definition />
