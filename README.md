@@ -1,5 +1,8 @@
 # word-counter    
-A Next.js React app that allows a user to type in a textarea while keeping track of how many times that word occurred from the text in that text area.    
+A Next.js React app that allows a user to type in a textarea while keeping track of how many times that word occurred from the text in that text area.     
+
+![word-counter](screenshot.jpg?raw=true "word-counter")        
+
 ## Features
 * Tracks how many times a specific word was typed in the textarea.
 * Clicking on a word in the word box shows the dictionary definition of that word.
